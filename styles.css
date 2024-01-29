@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --nav-background: #33292a;
+    --general-white: #fff;
+    --contact-background: #644b4f;
+    --pink:#EFA69D;
+    --hover:#e9877b;
+    --white:#f2f2f2;
+
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h2{
+    font-size: 28px;
+}
+
+/* NAVIGATION */
+
+nav{
+    background-color: var(--nav-background); 
+}
+
+.nav-container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+ }  
+
+ nav li{
+    text-align: center;
+
+ }
+
+ nav li a:hover{
+    color: var(--hover);
+ }
+
+ .icon{
+    display: none;
+ }
+
+ .icon i{
+    color: var(--general-white);
+ }
+ 
+
+nav a{
+    text-decoration: none;
+    color: var(--general-white);
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+
+.hero {
+    height: calc(100vh - 68px);
+    background: url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 15px;
+    position: absolute;
+    top: 70%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    color: var(--general-white);  
+}
+
+/* ABOUT US */
+
+.about-us-container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.about-us{
+    padding: 75px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.about-us-text{
+    width: 48%;
+}
+
+.about-us-text p{
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: normal;
+}
+
+.about-us-img-container{
+    width: 48%;
+    height: auto; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* WHAT WE DO */
+
+.what-we-do{
+    background-color: var(--nav-background);
+    height: auto;
+    padding-top: 75px;
+    }
+
+.what-we-do-container {
+    width: 60%;
+    margin: 0 auto;
+}  
+    
+.what-we-do-text {
+    color: var(--general-white);
+    margin: 0 auto;
+}
+
+.what-we-do-text h2{
+    text-align: center;
+}
+
+.what-we-do-text p{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.what-we-do-icons{
+    color: var(--general-white);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.what-we-do-icons img{
+    width: 75px;
+    height: 75px;
+}
+
+.what-we-do-icons p{
+    text-align: center;
+
+}
+
+/* GALERY */
+
+.galery-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pic {
+    width: 32%;
+    height: 250px;
+}
+
+.pic img{
+    border-radius: 5px;
+}
+
+.our-trips {
+    width: 32%;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.our-trips h2 {
+    text-align: center;
+    margin-top: 100px;
+    
+
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* Contact US */
+
+
+.contact-us {
+    background-color: var(--contact-background);
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact-us-container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    
+}
+
+.contact-us-left {
+    flex: 1;
+    color: var(--general-white);
+    margin-right: 50px;
+}
+
+.contact-us-right {
+    flex: 3;
+}
+
+.contact-us-right p {
+    color: var(--general-white);
+    font-size: 1rem;
+    margin-bottom: 16px;
+    line-height: 20px;
+    margin-left: 60px;
+    text-align: justify;
+}
+
+.btn{
+    margin-left: 60px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+/* REVIEWS */
+
+.reviews-top{
+    width: 335px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.reviews-top h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.reviews-top p{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.reviews-container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bertie{
+    max-width: 380px;
+    text-align: center;
+}
+
+.review-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    
+
+}
+
+.frank{
+    max-width: 380px;
+    text-align: center;
+}
+
+.bertie p, 
+.frank p{
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+/* GALERY */
+
+.botton-galery-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container{
+    width: 50%;
+    height: 400px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #644b4f;
+    text-align: center;
+
+}
+
+.footer-contact{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: var(--pink);
+    text-decoration: underline;
+}
+
+.footer-contact:hover{
+    color: var(--hover);
+}
+
+.footer-copy{
+    padding-bottom: 40px;
+    color: var(--general-white);
+}
+
+
+@media (max-width: 850px){
+    .reviews-container{
+        text-align: justify;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .contact-us-container{
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* NAV BAR */
+    .nav-container {
+        max-width: 80%;;
+    }
+    
+    nav .icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+     nav .icon i{
+        color: var(--general-white);
+     }
+
+    nav ul {
+    display: none;
+    }
+
+    /* hero */
+
+    .hero-text h1 {
+        font-size: 50px;
+        top: 85%;
+        left: 65%;
+        margin-right: 15px;
+    }
+
+    /* About us */
+
+    .about-us-container{
+        max-width: 90%;
+    }
+    
+    .about-us{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 1rem;
+    }
+
+    .about-us-text{
+        width: 100%;
+    }
+
+    .about-us-img-container{
+        width: 100%; 
+    }
+
+    /* What we do */
+
+    .what-we-do-container {
+        width: 90%;
+        
+    }  
+
+    .what-we-do{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    .what-we-do-text p{
+        text-align: center;
+        margin-top: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .what-we-do-icons{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+/* GALERY */
+    .galery-container{
+        max-width: 90%;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .pic img{
+        border-radius: 0px;
+    }
+
+    .our-trips {
+        width: 100%;
+        height: 100px;
+        background-color: #f2f2f2;
+    }
+
+    .our-trips h2   {
+        margin-top: 30px;
+    }
+
+/* Contact US */
+
+   .contact-us-container{
+    max-width: 90%;
+    padding-top: 25px;
+    flex-direction: column;
+    gap: 25px;
+   }
+
+   h2{
+    margin-left: 15px;
+
+   }
+
+   .contact-us-right p{
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+
+   .btn{
+    margin-left: 15px; 
+    margin-bottom: 25px;
+   }
+
+/* REWIEWS */
+   
+   .reviews-top{
+    margin-top: 50px;
+
+   }
+
+   .reviews-top p{
+    margin-bottom: 50px;
+   }
+   
+    .reviews-container{
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+}
+
+    .reviews-container h4{
+        margin-bottom: 15px;
+    }
+    
+    /* Galery */
+
+    .botton-galery-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 300px;
+    }
+}
